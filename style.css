@@ -31,7 +31,7 @@ body {
 }
 
 .pom {
-    width: 40%;
+    width: 45%;
 }
 
 .right-menu {
@@ -73,19 +73,22 @@ body {
 
 .main-heading {
     text-align: center;
-    font-size: 48px;
-    padding-top: 40px;
+    font-size: 65px;
+    padding-top: 60px;
+    letter-spacing: 10px;
     text-transform: uppercase;
     color: var(--white);
 }
 
 .middle-arrow {
-    margin: auto;
+    margin-top: 5%;
+    margin-left: 50%;
+    width: 2.2%;
     display: block;
 }
 
 .creatives-container {
-    height: 825px;
+    height: 813px;
 }
 
 .band-container {
