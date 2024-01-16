@@ -8,6 +8,7 @@
     --dark-blue: #145679;
     --dark-grey: rgb(109, 108, 116);
     --yellow: #ffffa3;
+    --dark-moderate-cyan: hsl(85, 79%, 69%);
     --light-pink: #FFB6C1FF;
 }
 
@@ -53,12 +54,21 @@ body {
     margin: 0;
 }
 
+.nav-link:hover{
+    color: var(--black);
+}
+
 .nav-link {
     padding: 14px;
     font-size: 22px;
 }
 
-.nav-link.contact {
+.nav-link.contact:hover{
+    color: var(--white);
+    background: var(--black);
+}
+
+.nav-link.contact{
     color: var(--black);
     background: var(--white);
     font-family: 'Fraunces', serif;
@@ -138,12 +148,20 @@ body {
     color: var(--dark-grey);
 }
 
+.learn-more-1:hover {
+    color:var(--yellow) ;
+}
+
 .learn-more-1 {
     font-weight: bolder;
     font-size: 17px;
     text-decoration: underline var(--yellow) 5px;
     font-family: 'Fraunces', serif;
     text-transform: uppercase;
+}
+
+.learn-more-2:hover {
+    color:var(--light-pink) ;
 }
 
 .learn-more-2 {
@@ -280,6 +298,10 @@ body {
     padding-left: 40.5%;
 }
 
+.footer-link:hover{
+    color: var(--white);
+}
+
 .footer-link {
     font-size: 20px;
     margin-inline: 28px;
@@ -296,6 +318,21 @@ body {
     color: var(--dark-mint);
 }
 
+.fa-facebook-official:hover{
+    color: var(--white);
+}
+
+.fa-instagram:hover{
+    color: var(--white);
+}
+
+.fa-pinterest:hover{
+    color: var(--white);
+}
+
+.fa-twitter:hover{
+    color: var(--white);
+}
 
 .fa-facebook-official{
     color: var(--dark-mint);
