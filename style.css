@@ -10,9 +10,15 @@
     --yellow: #ffffa3;
     --light-pink: #FFB6C1FF;
 }
+
+html{
+    scroll-behavior: smooth;
+}
+
 h1, h2, h3, h4 {
     font-family: 'Fraunces', serif;
 }
+
 body {
     margin: 0;
     font-family: 'Barlow', sans-serif;
@@ -202,8 +208,10 @@ body {
 .client-testamonial-heading {
     text-align: center;
     margin-top: 180px;
+    letter-spacing: 8px;
     margin-bottom: 120px;
     font-size: 30px;
+    text-transform: uppercase;
     color: var(--grey)
 }
 
@@ -217,9 +225,10 @@ body {
 }
 
 .client-desc {
-    font-size: 30px;
+    font-size: 25px;
     margin-inline: 100px;
     text-align: center;
+    color: var(--dark-grey);
 }
 
 
